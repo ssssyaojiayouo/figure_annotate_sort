@@ -39,7 +39,7 @@
 另一种是直接给出未排序好的截图，需要注意截图只能包含碎片的部分，如果不裁剪，程序识别率很低很难标注准确。  
 
 截图示意:  
-![截图示意](./screenshot/fig01/test.png)
+![截图示意](./screenshot/fig01/test02.png)
  
 ## 模式1： 直接给出碎片顺序
 ```python
@@ -59,7 +59,7 @@ po = None  # 自动给图像编号，并给出交换步骤
 running(figure_label, screenshot_figure_name, po)
 ```
 结果如下：  
-![模式2结果_图像标注](./output/fig01/test_annotated.png)  
+![模式2结果_图像标注](./output/fig01/test02_annotated.png)  
 ![模式2结果_程序运行结果](./source/模式2结果.png)
 
 
