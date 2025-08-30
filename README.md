@@ -1,6 +1,13 @@
 # figure_annotate_sort
 三国杀时光绘卷拼图自动标注并给出交换步骤
 
+
+**最后更新**: 2025-08-30 10:02:30
+
+- ✅ 已完成: 第一幅图标注
+- 🚧 进行中: 第二幅图标注 (预计今日完成)
+- ⏳ 待更新: 第三幅图及后续
+
 ## 路径说明
 1. reference_patches/fig0x/: 每幅拼图的切片路径，用于精准定位截图碎片位置，目前只有第一幅图，后续会更新。
 2. screenshot/fig0x/: 放置未标注的截图，每幅图的截图需要放在相对应的子文件夹下，目前只有第一幅图。
@@ -45,3 +52,4 @@ screenshot_figure_name = 'test02.jpg'
 po = None  # 自动给图像编号，并给出交换步骤
 running(figure_label, screenshot_figure_name, po)
 ```
+
