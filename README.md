@@ -59,7 +59,9 @@ po = None  # 自动给图像编号，并给出交换步骤
 running(figure_label, screenshot_figure_name, po)
 ```
 结果如下：  
-![模式2结果](./source/模式2结果.png)
+![模式2结果_图像标注](./output/fig01/test_annotated.png)  
+![模式2结果_程序运行结果](./source/模式2结果.png)
+
 
 ## 联系方式
 B站：ssss要加油哦  
