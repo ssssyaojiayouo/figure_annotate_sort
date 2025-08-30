@@ -167,10 +167,8 @@ def running(figure_label, screenshot_figure_name, po=None):
 
 
 if __name__ == '__main__':
-    figure_label = '01'
-    screenshot_figure_name = 'test02.jpg'
-    # po = [6, 12, 9, 11, 8, 3, 2, 5, 10, 7, 1, 4]
-    # po = [2, 9, 5, 11, 4, 7, 1, 12, 8, 6, 3, 10]
-    # po = [7, 3, 8, 11, 12, 2, 4, 1, 10, 5, 9, 6]  # 直接赋值，不会自动给图像编号
+    figure_label = '02'
+    screenshot_figure_name = 'test01.jpg'
     po = None  # 自动给图像编号，并给出交换步骤
     running(figure_label, screenshot_figure_name, po)
+
