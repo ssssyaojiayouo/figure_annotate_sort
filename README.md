@@ -44,6 +44,8 @@ screenshot_figure_name = 'test02.jpg'  # 截图图像名
 po = [7, 3, 8, 11, 12, 2, 4, 1, 10, 5, 9, 6]  # 直接赋值，不会自动给图像编号
 running(figure_label, screenshot_figure_name, po)
 ```
+结果如下：
+https://raw.githubusercontent.com/ssssyaojiayouo/figure_annotate_sort/main/source/%E6%A8%A1%E5%BC%8F1%E7%BB%93%E6%9E%9C.png
 
 ## 模式2：给出未标注的截图
 ```python
@@ -52,4 +54,6 @@ screenshot_figure_name = 'test02.jpg'
 po = None  # 自动给图像编号，并给出交换步骤
 running(figure_label, screenshot_figure_name, po)
 ```
+结果如下：
+https://raw.githubusercontent.com/ssssyaojiayouo/figure_annotate_sort/main/source/%E6%A8%A1%E5%BC%8F2%E7%BB%93%E6%9E%9C.png
 
