@@ -1,5 +1,5 @@
 # figure_annotate_sort
-三国杀时光绘卷拼图自动标注并给出交换步骤
+三国杀时光绘卷拼图自动标注并给出交换步骤。如果没有python环境，更新了拼图还原工具，只需提供截图便可给出可视化的还原步骤
 
 
 **最后更新**: 2025-08-30 22:09:30
@@ -62,6 +62,17 @@ running(figure_label, screenshot_figure_name, po)
 ![模式2结果_图像标注](./output/fig01/test02_annotated.jpg)  
 ![模式2结果_程序运行结果](./source/模式2结果.png)
 
+## 拼图还原工具
+直接双击exe打开界面如下：  
+![exe_fig_1](./source/exe_fig_1.png)
+只需要拖拽你的裁剪好的截图到指定位置，然后在上方下拉框中选择是第几副图  
+![exe_fig_2](./source/exe_fig_2.png)
+然后点击处理图像，软件自动会根据你的截图得到拼接好的图像，以及交换步骤   
+![exe_fig_3](./source/exe_fig_3.png)
+你点击下一步，软件会提示你哪两个碎片位置变化，对应的旁边的步骤也会高亮  
+![exe_fig_4](./source/exe_fig_4.png)
+最后点完全部步骤，便会完成拼图  
+![exe_fig_6](./source/exe_fig_6.png)
 
 ## 联系方式
 B站：ssss要加油哦  
