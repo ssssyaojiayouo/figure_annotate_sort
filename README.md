@@ -73,7 +73,8 @@ running(figure_label, screenshot_figure_name, po)
 <img src="./source/exe_fig_4.png" width="500" alt="exe_fig_4">  
 最后点完全部步骤，便会完成拼图  
 <img src="./source/exe_fig_6.png" width="500" alt="exe_fig_6">  
-需要注意的是，exe文件所在的文件夹内必须包含reference_patches文件夹以及里面的每幅图的碎片！！！！
+1. 需要注意的是，exe文件所在的文件夹内必须包含reference_patches文件夹以及里面的每幅图的碎片！！！！
+2. exe的文件路径不能有中文！！！！否则当点击处理图像之后会闪退。
 
 ## 联系方式
 B站：ssss要加油哦  
