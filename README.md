@@ -39,7 +39,7 @@
 另一种是直接给出未排序好的截图，需要注意截图只能包含碎片的部分，如果不裁剪，程序识别率很低很难标注准确。  
 
 截图示意:  
-<img src="./screenshot/fig01/test02.png" width="500" alt="截图示意">  
+<img src="./screenshot/fig01/test02.jpg" width="500" alt="截图示意">  
  
 ## 模式1： 直接给出碎片顺序
 ```python
