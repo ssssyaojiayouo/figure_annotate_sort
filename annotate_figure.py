@@ -1,3 +1,5 @@
+# coding=utf-8
+# @Author    : ssss要加油哦
 import sys
 import os
 import cv2
@@ -578,3 +580,4 @@ if __name__ == "__main__":
     window = PuzzleSorterApp()
     window.show()
     sys.exit(app.exec_())
+
