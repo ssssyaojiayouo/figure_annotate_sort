@@ -39,7 +39,7 @@
 另一种是直接给出未排序好的截图，需要注意截图只能包含碎片的部分，如果不裁剪，程序识别率很低很难标注准确。  
 
 截图示意:  
-![截图示意](./screenshot/fig01/test02.png)
+<img src="./screenshot/fig01/test02.png" width="500" alt="截图示意">  
  
 ## 模式1： 直接给出碎片顺序
 ```python
@@ -49,7 +49,7 @@ po = [7, 3, 8, 11, 12, 2, 4, 1, 10, 5, 9, 6]  # 直接赋值，不会自动给�
 running(figure_label, screenshot_figure_name, po)
 ```
 结果如下：  
-![模式1结果](./source/模式1结果.png)
+<img src="./source/模式1结果.png" width="400" alt="模式1结果">  
 
 ## 模式2：给出未标注的截图
 ```python
@@ -59,20 +59,21 @@ po = None  # 自动给图像编号，并给出交换步骤
 running(figure_label, screenshot_figure_name, po)
 ```
 结果如下：  
-![模式2结果_图像标注](./output/fig01/test02_annotated.jpg)  
-![模式2结果_程序运行结果](./source/模式2结果.png)
+<img src="./output/fig01/test02_annotated.jpg" width="500" alt="模式2结果_图像标注">  
+<img src="./source/模式2结果.png" width="400" alt="模式2结果_程序运行结果">  
 
 ## 拼图还原工具
 直接双击exe打开界面如下：  
-![exe_fig_1](./source/exe_fig_1.png)
+<img src="./source/exe_fig_1.png" width="500" alt="exe_fig_1">  
 只需要拖拽你的裁剪好的截图到指定位置，然后在上方下拉框中选择是第几副图  
-![exe_fig_2](./source/exe_fig_2.png)
+<img src="./source/exe_fig_2.png" width="500" alt="exe_fig_2">  
 然后点击处理图像，软件自动会根据你的截图得到拼接好的图像，以及交换步骤   
-![exe_fig_3](./source/exe_fig_3.png)
+<img src="./source/exe_fig_3.png" width="500" alt="exe_fig_3">  
 你点击下一步，软件会提示你哪两个碎片位置变化，对应的旁边的步骤也会高亮  
-![exe_fig_4](./source/exe_fig_4.png)
+<img src="./source/exe_fig_4.png" width="500" alt="exe_fig_4">  
 最后点完全部步骤，便会完成拼图  
-![exe_fig_6](./source/exe_fig_6.png)
+<img src="./source/exe_fig_6.png" width="500" alt="exe_fig_6">  
+需要注意的是，exe文件所在的文件夹内必须包含reference_patches文件夹以及里面的每幅图的碎片！！！！
 
 ## 联系方式
 B站：ssss要加油哦  
